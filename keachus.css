@@ -82,7 +82,8 @@ header .photo{
 }
 .planningList #planning
 {
-    background-color:#c3f3b779 ;
+    background-color:#212e1d95 ;
+    color: white;
     width: 40%;
 }
 .planningList #listeCourse
@@ -111,7 +112,14 @@ header .photo{
 
 #lundi
 {
-    background-color: #c3f3b779;
+    background-color: #212e1d95;
+    color: white;
+}
+
+#lundiGrosBouton
+{
+    background-color: #212e1d95;
+    color: white;
 }
 .jourSemaine
 {
@@ -492,6 +500,7 @@ h1
         border: Solid 1px rgba(0, 0, 0, 0.269);
         font-family: "Superclarendon";
         font-size: 0.8em;
+        
     }
 
 /*Rubrique milieu*/
