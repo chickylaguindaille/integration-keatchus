@@ -1,0 +1,551 @@
+/* Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: "Gastromond";
+    src: url("./polices/Gastromond.woff2") format("woff2"), url("./polices/Gastromond.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "Superclarendon";
+    src: url("./polices/Superclarendon-Regular.woff2") format("woff2"), url("./polices/Superclarendon-Regular.woff")format("woff");
+  }
+  
+
+  
+
+
+body
+{
+    overflow-x: hidden;
+    position: relative;
+    padding-bottom: 5em;
+}
+
+
+header .backgroundMobile{
+position: absolute;
+width: 100%;
+}
+
+header .photoNom figcaption{
+    font-family: "Superclarendon";
+    text-align: center;
+}
+
+header .photo{
+    display: flex;
+    padding-top: 1em;
+    position: relative;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+}
+
+.planningList
+{
+    border-radius: 30px;
+    width:15em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #62755B;
+    text-align: center;
+}
+.planningList input
+{
+    padding: 9px;
+    border-radius: 30px;
+    font-family: "Superclarendon";
+    color: white;
+    border: 0px
+}
+.planningList #planning
+{
+    background-color:#c3f3b779 ;
+    width: 40%;
+}
+.planningList #listeCourse
+{
+    background-color:#62755B ;
+}
+
+.petitBouton, .btnSemaine
+{
+    border-radius: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #62755B;
+    text-align: center;
+    font-family: "Superclarendon";
+    color: white;
+    border: 0px;
+    padding: 0.6em;
+    font-size: 10px;
+}
+.btnSemaine
+{
+    padding: 1.5em;
+    font-size: 0.5em;
+}
+
+#lundi
+{
+    background-color: #c3f3b779;
+}
+.jourSemaine
+{
+    background-color: #62755B;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    width:17.5em;
+}
+
+
+
+
+footer{
+    background-color: #62755B;
+    justify-content: center;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5em;
+}
+
+.bottom figure { 
+    text-align: center;
+    color: #FFFF; 
+    display: inline-block;
+    justify-content: center;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+} 
+
+.livre{
+    color: #F0BC00;
+}
+
+
+.top { 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.top th{ 
+    justify-content: center;
+}
+
+main
+{
+    /*background-color: pink;*/
+    font-family: "Superclarendon";
+}
+
+h1
+{
+    font-family: "Gastromond";
+    padding: 1em;
+    font-size: 1.3em;
+}
+
+
+
+
+
+
+
+.uneRecette img
+{
+    width: 40em;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    max-width: 70%;
+}
+.uneRecette
+{
+justify-content: center;
+text-align: center;
+display: flex;
+}
+
+
+.troisRecette img
+{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+
+}
+.troisRecette
+{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.grosBouton
+{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+.filtrer{
+    text-align: center;
+
+}
+
+.ingredients
+{
+    display: none;
+    background-color: #62755b61;
+}
+
+.hidden
+{
+    display: none;
+}
+
+.visible
+{
+    display: block;
+}
+
+.btnDesktop
+{
+    display: none;
+}
+
+.plus
+{
+    padding-left: 0.5em;;
+    position: absolute;
+    width: 1.3em;
+    height: 1.3em;
+}
+
+
+/*Checkbox ingredients*/
+.checkbox
+{
+    margin-left: 10%;
+}
+.checkbox2
+{
+    display: none;
+    margin-left: 10%;
+}
+
+
+
+@media screen and (min-width: 350px) {
+.bottom figure { 
+    padding-left: 2%;
+    padding-right: 2%;
+} 
+
+.photoNom figcaption
+{
+    font-size: 1.2em;
+}
+}
+
+
+@media screen and (min-width: 400px) {
+
+    .bottom figure { 
+        padding-left: 3%;
+        padding-right: 3%;
+    } 
+
+    .planningList
+    {
+    width:16em;
+    }
+    .planningList input
+    {
+    padding: 14px ;
+    }
+
+    .jourSemaine
+    {
+    width:23em;
+    }
+
+    .petitBouton
+    {
+    padding: 1em;
+    font-size: 11px;
+    }   
+
+    .photoNom figcaption
+    {
+        font-size: 1.4em;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 600px) {
+    .planningList
+    {
+    width:19.5em;
+    }
+    .planningList input
+    {
+    padding: 15px ;
+    }
+    .planningList #planning
+{
+    background-color:#c3f3b779 ;
+    width: 50%;
+}
+
+.jourSemaine
+{
+width:26em;
+}
+
+.petitBouton
+{
+padding: 1.1em;
+font-size: 12px;
+}   
+
+h1
+{
+    font-size: 1.6em;
+}
+
+
+.bottom figure { 
+    padding-left: 5%;
+    padding-right: 5%;
+} 
+
+.photoNom figcaption
+{
+    font-size: 1.6em;
+}
+
+
+}
+
+
+@media screen and (min-width: 750px) {
+
+    .photoNom
+    {
+        display: none;
+    }
+
+    footer {
+      display: none;
+    }
+    body{
+        padding-bottom: 0em;
+    }
+
+    
+/* Header Desktop*/
+    header{
+        background-color: #62755B;
+        justify-content: center;
+        text-align: center;
+        height: 6em;
+        z-index: 100;
+    }
+    header .background
+    {
+        display: none;
+    }
+    header
+    {
+        position: fixed;
+        top: 0;
+        width: 100%;
+    }
+    .logoDesktop
+    {
+        height: 4em;
+        width: auto;
+        padding-left: 1em;
+        padding-top: 1em;
+    }
+    .photoDesktop 
+    {
+        position: relative;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+    .photoDesktop img
+    {
+        padding-top: 1em;
+        height: 4em;
+        width: auto;
+        padding-right: 1em;
+    }
+    .photoDesktop figcaption
+    {
+        padding-top: 2em;
+        font-size: 1.2em;
+        color: white;
+    }
+    .autreDesktop
+    {
+        justify-content: center;
+        padding-right: 1.5%;
+        padding-left: 1.5%;
+        padding-top: 1em;
+    }
+    .autreDesktop figcaption
+    {
+        font-size: 0.9em;
+        color: white;
+    }
+    header .btnDesktop{
+        display: flex;
+        font-family: "Superclarendon";
+    }
+
+
+
+
+
+
+
+    .planningList
+    {
+        display: none;
+    }
+
+    main
+    {
+        display: flex;
+        max-width: 100%;
+        padding-top: 6em;
+    }
+
+/*Bouton jour semaine gauche*/
+    .jourSemaine
+    {
+        flex-direction: column;
+        border-radius: 0px;
+        width: 10%;
+        height: 100%;
+        position: fixed;
+        top: 6em;
+    }
+    .petitBouton
+    {
+        display: none;
+    }
+    .grosBouton
+    {
+        display:block;
+        width: 100%;
+        height: 11.5%;
+        background-color: rgba(255, 255, 255, 0.735);
+        border: Solid 1px rgba(0, 0, 0, 0.269);
+        font-family: "Superclarendon";
+        font-size: 0.8em;
+    }
+
+/*Rubrique milieu*/
+#rubrique
+{
+    padding-left: 10%;
+    width: 70%;
+}
+
+
+/*Ingredients droite*/
+    #ingredients
+    {
+        display: block;
+        width: 20%;
+        height: 100%;
+        position: fixed;
+        top: 6em;
+        margin-left: 80%;
+        background-color: #62755b61;
+    }
+
+
+
+
+    .visible, .hidden
+    {
+        display: block;
+    }
+
+    /*.visible
+    {
+        background-color: red;
+    }
+
+    .hidden
+    {
+        background-color: blue;
+    }*/
+    
+
+  }
+
+
+  @media screen and (min-width: 900px) {
+    .grosBouton,.checkbox, .checkbox2
+    {
+        font-size: 1em;
+    }
+    }
+
+  @media screen and (min-width: 1200px) {
+    .grosBouton, .checkbox, .checkbox2
+    {
+        font-size: 1.3em;
+    }
+    }
