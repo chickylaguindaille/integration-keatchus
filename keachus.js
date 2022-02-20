@@ -14,8 +14,8 @@ let ingredientsSemaine = document.getElementById("btnSemaine");
   planning.addEventListener("click", () => {
     document.getElementById('rubrique').className = "visible"
     document.getElementById('ingredients').className = "hidden"
-    listeCourse.style.backgroundColor = '#62755B';
-    planning.style.backgroundColor = '#c3f3b779';
+    listeCourse.style.backgroundColor = '#62755B'; //verifier si pas enlevable
+    planning.style.backgroundColor = '#c3f3b779'; //verifier si pas enlevable
     document.getElementById('checkbox2').className = "checkbox2"
     })
 
