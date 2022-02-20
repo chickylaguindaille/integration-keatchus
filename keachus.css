@@ -23,11 +23,13 @@ time, mark, audio, video {
 @font-face {
     font-family: "Gastromond";
     src: url("./polices/Gastromond.woff2") format("woff2"), url("./polices/Gastromond.woff") format("woff");
+    font-display: swap;
   }
   
   @font-face {
     font-family: "Superclarendon";
     src: url("./polices/Superclarendon-Regular.woff2") format("woff2"), url("./polices/Superclarendon-Regular.woff")format("woff");
+    font-display: swap;
   }
   
 
