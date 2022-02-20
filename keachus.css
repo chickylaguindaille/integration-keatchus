@@ -172,19 +172,18 @@ footer{
     justify-content: center;
 }
 
-main
-{
-    /*background-color: pink;*/
-    font-family: "Superclarendon";
-}
 
-h1
+.petitDejeuner h2, .dejeuner h2, .gouter h2, .diner h2
 {
     font-family: "Gastromond";
     padding: 1em;
-    font-size: 1.3em;
+    font-size: 1em;
 }
 
+.petitDejeuner figcaption, .dejeuner figcaption, .gouter figcaption, .diner figcaption
+{
+    font-family: "Superclarendon";
+}
 
 
 
@@ -229,14 +228,6 @@ display: flex;
 {
     display: none;
 }
-
-
-
-
-
-
-
-
 
 
 .filtrer{
@@ -287,6 +278,15 @@ display: flex;
 
 
 
+
+
+
+
+
+
+
+
+
 @media screen and (min-width: 350px) {
 .bottom figure { 
     padding-left: 2%;
@@ -297,6 +297,12 @@ display: flex;
 {
     font-size: 1.2em;
 }
+
+.petitDejeuner h2, .dejeuner h2, .gouter h2, .diner h2
+{
+    font-size: 1.1em;
+}
+
 }
 
 
@@ -332,6 +338,10 @@ display: flex;
         font-size: 1.4em;
     }
 
+    .petitDejeuner h2, .dejeuner h2, .gouter h2, .diner h2
+{
+    font-size: 1.2em;
+}
 
 
 
@@ -363,9 +373,9 @@ padding: 1.1em;
 font-size: 12px;
 }   
 
-h1
+.petitDejeuner h2, .dejeuner h2, .gouter h2, .diner h2
 {
-    font-size: 1.6em;
+    font-size: 1.5em;
 }
 
 
@@ -376,7 +386,7 @@ h1
 
 .photoNom figcaption
 {
-    font-size: 1.6em;
+    font-size: 1em;
 }
 
 
