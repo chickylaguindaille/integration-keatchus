@@ -186,10 +186,6 @@ footer{
 }
 
 
-
-
-
-
 .uneRecette img
 {
     width: 40em;
@@ -343,9 +339,8 @@ display: flex;
     font-size: 1.2em;
 }
 
-
-
 }
+
 
 @media screen and (min-width: 600px) {
     .planningList
@@ -388,7 +383,6 @@ font-size: 12px;
 {
     font-size: 1em;
 }
-
 
 }
 
@@ -473,10 +467,6 @@ font-size: 12px;
 
 
 
-
-
-
-
     .planningList
     {
         display: none;
@@ -535,15 +525,11 @@ font-size: 12px;
         background-color: #62755b61;
     }
 
-
-
-
     .visible, .hidden
     {
         display: block;
     }
 
-    
 
   }
 
